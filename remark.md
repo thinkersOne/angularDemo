@@ -8,8 +8,11 @@ cd angularDemo
 ng serve --open
 
 -- 新建 组件
-1,新建一个组件文件夹:product-list。
-2，新建 product-list组件。  ng g component product-list/product-list
-
+1,新建first组件。ng generate component first
+2,新建second组件。ng generate component second
+3,配置first、second组件路由：
+    1，在app.module.ts中配置。
+    2，在app-routing.module.ts中配置path及组件绑定。
+注：组件 不能单独访问，只能作为页面的一部分显示。
 
 
